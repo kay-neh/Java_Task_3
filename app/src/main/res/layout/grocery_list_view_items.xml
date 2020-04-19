@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="56dp">
+
+    <ImageView
+        android:id="@+id/add_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add_circle"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        />
+
+    <TextView
+        android:id="@+id/grocery_item_placeholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Sweet Potatoes"
+        android:textColor="@color/basilGreen800"
+        android:textSize="17sp"
+        android:fontFamily="@font/lekton_bold"
+        android:layout_marginStart="16dp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/add_icon"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/dotted"
+        android:layout_centerInParent="true"
+        android:layout_toEndOf="@id/grocery_item_placeholder"
+        android:layout_toStartOf="@id/naira"/>
+
+    <TextView
+        android:id="@+id/naira"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/price_placeholder"
+        android:text="#"
+        android:textColor="@color/basilGreen800"
+        android:textSize="17sp"
+        android:fontFamily="@font/lekton_bold"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/price_placeholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="500"
+        android:textColor="@color/basilGreen800"
+        android:textSize="17sp"
+        android:fontFamily="@font/lekton_bold"
+        android:layout_marginEnd="16dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

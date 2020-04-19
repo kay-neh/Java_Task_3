@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/basilGreen800</color>
+    <color name="colorPrimaryDark">@color/basilBackgroundDark</color>
+    <color name="colorAccent">@color/basilOrange800</color>
+
+    <color name="basilGreen800">#356859</color>
+    <color name="basilGreen500">#37966F</color>
+    <color name="basilGreen100">#B9E4C9</color>
+    <color name="basilOrange800">#FD5523</color>
+    <color name="basilBackground">#FFFBE6</color>
+    <color name="basilBackgroundDark">#CCC8B4</color>
+</resources>
